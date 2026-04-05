@@ -1,13 +1,12 @@
-# ai.py
-from google.genai import Client  # new Client-based usage
 
-# 🔑 Your API key
+from google.genai import Client  
+
+
 API_KEY = "your api_key"
 
-# Initialize the client
 client = Client(api_key=API_KEY)
 
-# Initialize the model
+
 model_name = "gemini-2.5-flash"
 
 def analyze_ticket(text):
